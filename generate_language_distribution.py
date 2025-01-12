@@ -12,8 +12,8 @@ from PIL import Image, ImageDraw
 languages = [
     # Use GitHub Linguist language colors
     ('Rust',       50, '#dea584', 'https://raw.githubusercontent.com/github/explore/main/topics/rust/rust.png'),
-    ('TypeScript', 23, '#2b7489', 'https://raw.githubusercontent.com/github/explore/main/topics/typescript/typescript.png'),
-    ('Python',     12, '#3572A5', 'https://raw.githubusercontent.com/github/explore/main/topics/python/python.png'),
+    ('TypeScript', 23, '#3178c6', 'https://raw.githubusercontent.com/github/explore/main/topics/typescript/typescript.png'),
+    ('Python',     12, '#FFD43B', 'https://raw.githubusercontent.com/github/explore/main/topics/python/python.png'),
     ('Go',         10, '#00ADD8', 'https://raw.githubusercontent.com/github/explore/main/topics/go/go.png'),
     ('C++',         5, '#f34b7d', 'https://raw.githubusercontent.com/github/explore/main/topics/cpp/cpp.png'),
 ]
