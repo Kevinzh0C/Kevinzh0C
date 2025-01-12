@@ -1,0 +1,36 @@
+name: Generate Snake
+
+on:
+  schedule:
+  - cron: "0 */6 * * *" # 每 6 小时更新一次
+  workflow_dispatch:
+    # 需要时手动触发也行
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    # 先拉取仓库内容
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+
+    # 使用 Platane snk 生成浅/深色两张 SVG
+    - uses: Platane/snk@v3
+      with:
+        github_user_name: ${{ github.repository_owner }}
+        outputs: |
+          ./output/snake.svg
+          ./output/snake-dark.svg?palette=github-dark
+
+    # 提交并推送生成的 SVG 文件回当前分支
+    - name: Commit snake images
+      uses: EndBug/add-and-commit@v9
+      with:
+        author_name: 'github-actions[bot]'
+        author_email: '41898282+github-actions[bot]@users.noreply.github.com'
+        message: 'chore: update snake images'
+        add: 'output/snake*.svg'
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
