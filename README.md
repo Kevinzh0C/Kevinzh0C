@@ -69,11 +69,8 @@ Currently seeking opportunities in Rust/Web3/Cloud Computing, eager to bring my 
   <!-- 使用生成的图片展示语言分布 -->
   <img src="language-distribution.png" alt="Programming Language Skills Distribution" width="600"/>
 
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KevinZh0C/KevinZh0C/main/output/snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KevinZh0C/KevinZh0C/main/output/snake.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/KevinZh0C/KevinZh0C/main/output/snake.svg" />
-  </picture>
+  <!-- 简化为单个 img 标签以兼容 GitHub Markdown 不过滤 -->
+  <img src="output/snake.svg" alt="github-snake" width="600" />
 </div>
 
 ---
