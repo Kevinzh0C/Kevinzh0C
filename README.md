@@ -66,26 +66,9 @@ Currently seeking opportunities in Rust/Web3/Cloud Computing, eager to bring my 
 
 <div align="center">
   <h3>Programming Language Skills Distribution</h3>
-
-  <table width="600" border="0" cellspacing="0" cellpadding="0">
-    <tr>
-      <td width="300" bgcolor="#F74C00" height="20">&nbsp;</td>
-      <td width="138" bgcolor="#007ACC" height="20">&nbsp;</td>
-      <td width="72" bgcolor="#4CAF50" height="20">&nbsp;</td>
-      <td width="60" bgcolor="#00ADD8" height="20">&nbsp;</td>
-      <td width="30" bgcolor="#00599C" height="20">&nbsp;</td>
-    </tr>
-  </table>
-  <br/>
-  <table width="600" border="0" cellspacing="0" cellpadding="0">
-    <tr align="center">
-      <td width="300"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-original.svg" width="30" height="30" alt="Rust"/></td>
-      <td width="138"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="30" height="30" alt="TypeScript"/></td>
-      <td width="72"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="30" height="30" alt="Python"/></td>
-      <td width="60"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" width="30" height="30" alt="Go"/></td>
-      <td width="30"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="30" height="30" alt="C++"/></td>
-    </tr>
-  </table>
+  
+  <!-- 使用生成的图片展示语言分布 -->
+  <img src="https://raw.githubusercontent.com/zhangkaiqi/Kevinzh0C/main/language-distribution.png" alt="Programming Language Skills Distribution" width="600"/>
 
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KevinZh0A/KevinZh0A/output/snake-dark.svg" />
