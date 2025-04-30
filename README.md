@@ -24,10 +24,49 @@ Currently seeking opportunities in Rust/Web3/Cloud Computing, eager to bring my 
 
 ## 🛠️ Tech Stack
 
-<p align="center">
-  <!-- 使用预先制作并托管的动画 GIF 替代 JS 动画 -->
-  <img src="https://your-domain.com/tech-stack-matrix.gif" alt="Tech Stack Matrix Animation" />
-</p>
+<div align="center">
+  <!-- Languages Section with Animation -->
+  <div class="tech-category">
+    <h3>Languages</h3>
+    <p>
+      <a href="#"><img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" /></a>
+      <a href="#"><img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" /></a>
+      <a href="#"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" /></a>
+      <a href="#"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" /></a>
+      <a href="#"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" /></a>
+    </p>
+  </div>
+  
+  <!-- Frameworks Section with Animation -->
+  <div class="tech-category">
+    <h3>Frameworks</h3>
+    <p>
+      <a href="#"><img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" /></a>
+      <a href="#"><img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" /></a>
+      <a href="#"><img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" /></a>
+      <a href="#"><img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white" alt="Redux" /></a>
+    </p>
+  </div>
+  
+  <!-- Infrastructure Section with Animation -->
+  <div class="tech-category">
+    <h3>Infrastructure</h3>
+    <p>
+      <a href="#"><img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" /></a>
+      <a href="#"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" /></a>
+      <a href="#"><img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" /></a>
+      <a href="#"><img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" /></a>
+      <a href="#"><img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx" /></a>
+    </p>
+  </div>
+  
+  <!-- Link to 3D Version -->
+  <p>
+    <a href="https://kevinzh0c.github.io/tech-3d/" target="_blank">
+      <img src="https://img.shields.io/badge/▶-查看交互式3D版本-brightgreen?style=for-the-badge" alt="Interactive 3D Version">
+    </a>
+  </p>
+</div>
 
 ## 📊 GitHub Stats & Activity
 
