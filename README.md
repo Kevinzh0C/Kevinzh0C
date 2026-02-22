@@ -2,7 +2,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&duration=4000&pause=2000&color=0366D6&center=true&vCenter=true&random=false&width=600&lines=Life+isn%27t+about+waiting+for+the+storm+to+pass;It%27s+about+learning+to+dance+in+the+rain" alt="Typing SVG" />
 
 <p>
-    <a href="https://github.com/KevinZh0A"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+    <a href="https://github.com/Kevinzh0C"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
     <a href="mailto:kaiqiz07@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a>
   </p>
 </div>
