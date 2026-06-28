@@ -1,0 +1,77 @@
+<!--
+  JetBrains Plugin Descriptor for AI Coding Agent
+
+  Compatible with IntelliJ IDEA 2022.3+
+  Provides code generation, debugging, and explanation actions
+  via the AI Coding Agent server API.
+-->
+<idea-plugin>
+  <id>com.aicodingagent.jetbrains</id>
+  <name>AI Coding Agent</name>
+  <version>1.0.0</version>
+  <vendor>AI Coding Agent</vendor>
+
+  <description><![CDATA[
+    AI-powered code generation, debugging, and refactoring assistant.
+    <br/>
+    <ul>
+      <li>Generate code from natural language prompts</li>
+      <li>Detect bugs and suggest fixes</li>
+      <li>Explain code structure and complexity</li>
+    </ul>
+    <br/>
+    Supports Python, JavaScript, TypeScript, Java, and Go.
+  ]]></description>
+
+  <idea-version since-build="223" />
+
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <applicationService
+      serviceImplementation="com.aicodingagent.settings.AgentSettingsService" />
+    <applicationConfigurable
+      instance="com.aicodingagent.settings.AgentSettingsConfigurable"
+      displayName="AI Coding Agent" />
+    <toolWindow
+      id="AI Agent"
+      factoryClass="com.aicodingagent.ui.AgentToolWindowFactory"
+      anchor="right" />
+  </extensions>
+
+  <actions>
+    <group id="AiCodingAgent.MainMenu" text="AI Agent" popup="true">
+      <add-to-group group-id="ToolsMenu" anchor="last" />
+
+      <action id="AiCodingAgent.Generate"
+        class="com.aicodingagent.actions.GenerateAction"
+        text="Generate Code"
+        description="Generate code from a natural language prompt">
+        <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt G" />
+      </action>
+
+      <action id="AiCodingAgent.Debug"
+        class="com.aicodingagent.actions.DebugAction"
+        text="Debug Code"
+        description="Analyze code for bugs and get fix suggestions">
+        <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt D" />
+      </action>
+
+      <action id="AiCodingAgent.Explain"
+        class="com.aicodingagent.actions.ExplainAction"
+        text="Explain Code"
+        description="Get an explanation of the selected code">
+        <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt E" />
+      </action>
+    </group>
+
+    <!-- Editor context menu integration -->
+    <group id="AiCodingAgent.EditorPopup" text="AI Agent" popup="true">
+      <add-to-group group-id="EditorPopupMenu" anchor="last" />
+
+      <reference ref="AiCodingAgent.Generate" />
+      <reference ref="AiCodingAgent.Debug" />
+      <reference ref="AiCodingAgent.Explain" />
+    </group>
+  </actions>
+</idea-plugin>

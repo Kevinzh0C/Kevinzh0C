@@ -1,0 +1,55 @@
+{
+  "name": "ai-coding-agent-vscode",
+  "displayName": "AI Coding Agent",
+  "description": "AI-powered code generation, debugging, and refactoring assistant",
+  "version": "1.0.0",
+  "publisher": "ai-coding-agent",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Snippets",
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:aiCodingAgent.generate",
+    "onCommand:aiCodingAgent.debug",
+    "onCommand:aiCodingAgent.explain"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "aiCodingAgent.generate",
+        "title": "AI Agent: Generate Code"
+      },
+      {
+        "command": "aiCodingAgent.debug",
+        "title": "AI Agent: Debug Code"
+      },
+      {
+        "command": "aiCodingAgent.explain",
+        "title": "AI Agent: Explain Code"
+      }
+    ],
+    "configuration": {
+      "title": "AI Coding Agent",
+      "properties": {
+        "aiCodingAgent.serverUrl": {
+          "type": "string",
+          "default": "http://localhost:3000",
+          "description": "URL of the AI Coding Agent server"
+        },
+        "aiCodingAgent.apiKey": {
+          "type": "string",
+          "default": "",
+          "description": "API key for authentication"
+        }
+      }
+    }
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.70.0"
+  }
+}
